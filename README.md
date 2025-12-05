@@ -1,6 +1,6 @@
 # **ACH Fraud Detection Simulator**
 
-Synthetic ACH transaction data, fraud patterns, rule-based scoring, and an interactive dashboard — built to simulate the workflow of a **Payments Risk Analyst** at a modern fintech or crypto exchange (e.g., Coinbase).
+Synthetic ACH transaction data, fraud patterns, rule-based scoring, and an interactive dashboard — built to simulate the workflow of a **Payments Risk Analyst** at a modern fintech or crypto exchange.
 
 This project demonstrates:
 
@@ -12,7 +12,7 @@ This project demonstrates:
 
 ---
 
-# **🎯 Project Goals**
+# **Project Goals**
 
 This project was built as part of a personal portfolio for roles in **Payments Risk**, **Fraud Operations**, and **Risk Analytics**.
 
@@ -27,7 +27,7 @@ It aims to demonstrate that I can:
 
 ---
 
-# **📂 Project Structure**
+# **Project Structure**
 
 ```text
 ach-fraud-detection-simulator/
@@ -56,7 +56,7 @@ ach-fraud-detection-simulator/
 
 ---
 
-# **⚙️ SETUP INSTRUCTIONS (START HERE)**
+# **SETUP INSTRUCTIONS (START HERE)**
 
 ### **1. Clone the repository**
 
@@ -93,7 +93,7 @@ pip install pandas numpy jupyter streamlit
 
 ---
 
-# **🏗️ STEP 1 — Generate Synthetic ACH Data**
+# **STEP 1 — Generate Synthetic ACH Data**
 
 This script creates:
 
@@ -118,7 +118,7 @@ Output files created:
 
 ---
 
-# **🧠 STEP 2 — Apply Risk Rules & Score Transactions**
+# **STEP 2 — Apply Risk Rules & Score Transactions**
 
 This script:
 
@@ -155,7 +155,7 @@ python src/run_scoring.py
 
 ---
 
-# **📊 STEP 3 — Launch the Interactive Dashboard**
+# **STEP 3 — Launch the Interactive Dashboard**
 
 Run:
 
@@ -189,7 +189,7 @@ This dashboard simulates what an internal risk analytics tool might look like.
 
 ---
 
-# **📓 STEP 4 — Explore Data in the Notebook**
+# **STEP 4 — Explore Data in the Notebook**
 
 Open:
 
@@ -207,7 +207,7 @@ Includes:
 
 ---
 
-# **📝 STEP 5 — Read the Fraud Report**
+# **STEP 5 — Read the Fraud Report**
 
 Located at:
 
@@ -227,88 +227,9 @@ Sections include:
 - Recommendations
 - Next steps
 
-Perfect for linking on your portfolio or discussing during interviews.
-
 ---
 
-# **🧪 STEP 6 — Optional Case Studies**
-
-Inside:
-
-`docs/Case_Studies/`
-
-Examples you can add:
-
-- `case_001_instant_ach_abuse.md`
-- `case_002_first_party_fraud.md`
-- `case_003_synthetic_identity.md`
-
-These show your ability to write **investigation-style narratives**, which Coinbase and other risk teams value a _lot_.
-
----
-
-# **🌐 Deployment (Optional)**
-
-You can deploy the dashboard publicly on:
-
-- **Streamlit Community Cloud** (free)
-- **Hugging Face Spaces**
-- **Render**
-
-This allows you to link the dashboard from your portfolio website:
-
-> **Live Demo →** [https://your-dashboard.streamlit.app](https://your-dashboard.streamlit.app)
-
----
-
-# **🔍 Why This Project Is Relevant for Coinbase or Fintech Risk Roles**
-
-Modern fraud/risk teams look for analysts who can:
-
-- Think in **payment rails**, especially ACH
-- Understand return codes and dispute patterns
-- Recognize **synthetic identity signals**
-- Build and evaluate **risk rules**
-- Communicate findings clearly
-- Use data tools (SQL/Python/Looker-style dashboards)
-- Work with ambiguity
-- Measure performance of controls
-
-This project demonstrates exactly that.
-
-It shows:
-
-- Data analysis
-- Fraud intuition
-- Rule design
-- KPI tracking
-- Dashboarding
-- Documentation and storytelling
-
-All key skills for teams like:
-
-- Payments Risk
-- Fraud Operations
-- Financial Crimes
-- Trust & Safety
-- Risk Analytics
-
----
-
-# **🚀 Future Enhancements**
-
-Planned additions:
-
-- Add ACH return time modeling
-- Add anomaly detection models
-- Add user-level risk scores
-- Add cohort analysis (new users vs existing)
-- Expand dashboard with time-series charts
-- Add synthetic KYC signals (address similarity, email patterns)
-
----
-
-# **📫 Contact**
+# **Contact**
 
 If you'd like to know more about this project or my work in Payments Risk / Fraud, feel free to reach out.
 
