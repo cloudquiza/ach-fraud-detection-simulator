@@ -1,0 +1,45 @@
+# -------------------------
+# Python / Virtual Env
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit cache
+.streamlit/
+
+# -------------------------
+# Data Files (optional)
+# -------------------------
+# Only ignore generated data — keep sample files if desired.
+# COMMENT OUT if you want to keep your generated CSVs in git.
+#
+# data/users.csv
+# data/ach_transactions.csv
+# data/ach_transactions_scored.csv
+# data/alerts.csv
+
+# -------------------------
+# OS / Editor Junk Files
+# -------------------------
+.DS_Store
+Thumbs.db
