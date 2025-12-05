@@ -1,6 +1,6 @@
 # **ACH Fraud Detection Simulator**
 
-Synthetic ACH transaction data, fraud patterns, rule-based scoring, and an interactive dashboard — built to simulate the workflow of a **Payments Risk Analyst** at a modern fintech or crypto exchange.
+Synthetic ACH transaction data, fraud patterns, rule-based scoring, and an interactive dashboard — built to simulate the workflow of a **Payments Risk Analyst** at a modern fintech.
 
 This project demonstrates:
 
@@ -24,35 +24,6 @@ It aims to demonstrate that I can:
 - Evaluate rule performance
 - Create visual dashboards that mirror internal tooling
 - Communicate findings in a structured, risk-analyst format
-
----
-
-# **Project Structure**
-
-```text
-ach-fraud-detection-simulator/
-├─ data/
-│  ├─ users.csv                     # Generated synthetic users
-│  ├─ ach_transactions.csv          # Raw ACH transactions (generated)
-│  ├─ ach_transactions_scored.csv   # Scored transactions (generated)
-│  └─ alerts.csv                    # Rule hits (generated)
-│
-├─ src/
-│  ├─ generate_synthetic_data.py    # Creates users + transactions
-│  ├─ risk_rules.py                 # Fraud rule engine + scoring
-│  └─ run_scoring.py                # Runs scoring + writes outputs
-│
-├─ dashboard/
-│  └─ streamlit_app.py              # Interactive ACH fraud dashboard
-│
-├─ notebooks/
-│  └─ ach_fraud_analysis.ipynb      # EDA, charts, precision/recall
-│
-└─ docs/
-   ├─ ACH_Fraud_Report.md           # Written analysis + recommendations
-   └─ Case_Studies/
-        └─ ...                      # Optional case write-ups
-```
 
 ---
 
@@ -226,11 +197,5 @@ Sections include:
 - Rule performance
 - Recommendations
 - Next steps
-
----
-
-# **Contact**
-
-If you'd like to know more about this project or my work in Payments Risk / Fraud, feel free to reach out.
 
 ---
